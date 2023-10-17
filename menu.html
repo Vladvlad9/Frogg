@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-    <div class="container">
+    <div id='IPage' class="container">
         <div class="button">
-            <p><span>Начать</span></p>
+            <p id="startButton"><span>Начать</span></p>
             <figure></figure>
             <figure></figure>
             <figure></figure>
@@ -21,5 +21,12 @@
             <figure></figure>
         </div>
     </div>
+<script>
+    const startButton = document.getElementById('startButton');
+    startButton.addEventListener('click', function() {
+        const newPageUrl = 'index.html';
+        window.location.href = newPageUrl;
+    });
+</script>
 </body>
 </html>
