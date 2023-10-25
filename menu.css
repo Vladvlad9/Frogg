@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url('img/bbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .container{
     width: 270px;
@@ -17,6 +23,7 @@
     position: relative;
     border: 3px solid black;
     margin-bottom: 10px;
+
 }
 
 .button p{

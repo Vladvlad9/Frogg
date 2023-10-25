@@ -25,7 +25,12 @@ canvas4.height = 600;
 const canvas5 = document.getElementById('canvas5')
 const ctx5 = canvas5.getContext("2d")
 canvas5.width = 600;
-canvas5.height = 600;
+canvas5.height = 800;
+
+// const canvas6 = document.getElementById('canvas6')
+// const ctx6 = canvas6.getContext("2d")
+// canvas6.width = 600;
+// canvas6.height = 600;
 
 
 const grid = 80
@@ -55,8 +60,8 @@ const turtleImg = new Image()
 turtleImg.src = 'img/turtles.png'
 
 const carsImg = new Image()
-carsImg.src = 'img/cars.png'
-let numberCars = 3
+carsImg.src = 'img/cars5.png'
+let numberCars = 5
 
 const logImg = new Image()
 logImg.src = 'img/log.png'
