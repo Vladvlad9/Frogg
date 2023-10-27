@@ -19,6 +19,7 @@ function animate(){
 }
 animate()
 
+
 window.addEventListener('keydown', (e) =>{
     keys = []
     keys[e.keyCode] = true
